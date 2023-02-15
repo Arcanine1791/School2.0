@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: bc8fb1f4c2c5a824a9b6210e2d491923
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: electrode
+    100002: frames
+    100004: plate
+    100006: polySurface1
+    100008: polySurface2
+    100010: polySurface3
+    100012: polySurface4
+    100014: room
+    100016: smaw_gun
+    100018: Smaw_machine
+    100020: //RootNode
+    100022: smaw_wires_earth_gun
+    100024: SMAWgroup218smaw_new_stand_grppTorus1
+    100026: SMAWsmaw_wires_group259smaw_wires_gun_grpsmaw_wires_geometry_A_grpgroup218smaw_wires_gun_pasted__gun_handle_grpsmaw_wires_rubber1
+    100028: table
+    100030: transform1
+    100032: transform2
+    400000: electrode
+    400002: frames
+    400004: plate
+    400006: polySurface1
+    400008: polySurface2
+    400010: polySurface3
+    400012: polySurface4
+    400014: room
+    400016: smaw_gun
+    400018: Smaw_machine
+    400020: //RootNode
+    400022: smaw_wires_earth_gun
+    400024: SMAWgroup218smaw_new_stand_grppTorus1
+    400026: SMAWsmaw_wires_group259smaw_wires_gun_grpsmaw_wires_geometry_A_grpgroup218smaw_wires_gun_pasted__gun_handle_grpsmaw_wires_rubber1
+    400028: table
+    400030: transform1
+    400032: transform2
+    2100000: lambert14
+    2100002: lambert26
+    2100004: lambert27
+    2100006: frames_mat
+    2100008: lambert24
+    2100010: lambert16
+    2100012: lambert18
+    2100014: lambert23
+    2100016: lambert25
+    2100018: lambert22
+    2300000: electrode
+    2300002: frames
+    2300004: polySurface1
+    2300006: polySurface3
+    2300008: polySurface4
+    2300010: room
+    2300012: Smaw_machine
+    2300014: smaw_wires_earth_gun
+    2300016: SMAWgroup218smaw_new_stand_grppTorus1
+    2300018: SMAWsmaw_wires_group259smaw_wires_gun_grpsmaw_wires_geometry_A_grpgroup218smaw_wires_gun_pasted__gun_handle_grpsmaw_wires_rubber1
+    2300020: table
+    3300000: electrode
+    3300002: frames
+    3300004: polySurface1
+    3300006: polySurface3
+    3300008: polySurface4
+    3300010: room
+    3300012: Smaw_machine
+    3300014: smaw_wires_earth_gun
+    3300016: SMAWgroup218smaw_new_stand_grppTorus1
+    3300018: SMAWsmaw_wires_group259smaw_wires_gun_grpsmaw_wires_geometry_A_grpgroup218smaw_wires_gun_pasted__gun_handle_grpsmaw_wires_rubber1
+    3300020: table
+    4300000: room
+    4300002: frames
+    4300004: Smaw_machine
+    4300006: table
+    4300008: polySurface1
+    4300010: polySurface3
+    4300012: polySurface4
+    4300014: smaw_wires_earth_gun
+    4300016: electrode
+    4300018: SMAWsmaw_wires_group259smaw_wires_gun_grpsmaw_wires_geometry_A_grpgroup218smaw_wires_gun_pasted__gun_handle_grpsmaw_wires_rubber1
+    4300020: SMAWgroup218smaw_new_stand_grppTorus1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

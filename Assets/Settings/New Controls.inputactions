@@ -1,0 +1,51 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Test",
+            "id": "7fa42f13-c05e-4886-8fe2-aa93e2e1eaf4",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "PassThrough",
+                    "id": "fdef6700-7f1e-41cd-a2b4-f7c2f18fdf83",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "33988230-7265-44ed-b12a-7263ec313886",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Oculus (OpenXR)",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Oculus (OpenXR)",
+            "bindingGroup": "Oculus (OpenXR)",
+            "devices": [
+                {
+                    "devicePath": "<OculusHMD>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<OpenXRHmd>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
