@@ -726,7 +726,6 @@ GameObject:
   - component: {fileID: 8862090797446334750}
   - component: {fileID: 8862090797446334751}
   - component: {fileID: 8862090797446334752}
-  - component: {fileID: 8862090797446334753}
   m_Layer: 0
   m_Name: Window Mirror
   m_TagString: Untagged
@@ -849,22 +848,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4001834, y: 0.1615991, z: 0.012670517}
   m_Center: {x: 0.0016687363, y: -0.0021220148, z: 0.002452135}
---- !u!114 &8862090797446334753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5875665080058847501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df98821968a31b24d9bdac853ea81d66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {x: 0, y: 0, z: 0}
-  targetCollider: {fileID: 0}
-  myCollider: {fileID: 8862090797446334752}
-  snapDistance: 1
 --- !u!1 &7929269031759687480
 GameObject:
   m_ObjectHideFlags: 0

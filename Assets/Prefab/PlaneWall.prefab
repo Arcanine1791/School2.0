@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 3208464685039000877}
   - component: {fileID: 3208464685039000876}
   - component: {fileID: 3208464685039000851}
-  - component: {fileID: 3208464685039000873}
   m_Layer: 10
   m_Name: PlaneWall
   m_TagString: Box
@@ -30,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3208464685039000848}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0323, y: 1.036, z: -2.427}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -52,7 +51,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.3915822, y: 0.17465895, z: 0.0087714195}
-  m_Center: {x: -0.00017175823, y: 0.0001398623, z: -0.000051021576}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3208464685039000879
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -93,20 +92,20 @@ MonoBehaviour:
   RemoteGrabDistance: 1
   ThrowForceMultiplier: 1.5
   ThrowForceMultiplierAngular: 1.125
-  BreakDistance: 1.5
+  BreakDistance: 0
   HideHandGraphics: 0
   ParentToHands: 0
   ParentHandModel: 1
-  SnapHandModel: 0
+  SnapHandModel: 1
   CanBeDropped: 1
   CanBeSnappedToSnapZone: 1
   ForceDisableKinematicOnDrop: 0
   InstantMovement: 0
   MakeChildCollidersGrabbable: 0
-  handPoseType: 0
+  handPoseType: 1
   SelectedHandPose: {fileID: 0}
   CustomHandPose: 1
-  SecondaryGrabBehavior: 2
+  SecondaryGrabBehavior: 0
   TwoHandedPosition: 0
   TwoHandedPostionLerpAmount: 0.5
   TwoHandedRotation: 1
@@ -271,22 +270,6 @@ MonoBehaviour:
   MaximumVolume: 1
   RecentlyPlayedSound: 0
   LastRelativeVelocity: 0
---- !u!114 &3208464685039000873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3208464685039000848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df98821968a31b24d9bdac853ea81d66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {x: 0, y: 0, z: 0}
-  targetCollider: {fileID: 0}
-  myCollider: {fileID: 3208464685039000872}
-  snapDistance: 1
 --- !u!1 &3208464685473367720
 GameObject:
   m_ObjectHideFlags: 0

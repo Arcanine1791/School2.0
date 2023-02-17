@@ -12,12 +12,27 @@ public class Edge : MonoBehaviour
     void Update()
     {
 
-        Vector3 myClosestPoint = myCollider.ClosestPoint(targetCollider.transform.position);
-        Vector3 targetClosestPoint = targetCollider.ClosestPoint(myClosestPoint);
-        Vector3 offset = targetClosestPoint - myClosestPoint;
-        if (offset.magnitude < snapDistance)
+        //Vector3 myClosestPoint = myCollider.ClosestPoint(targetCollider.transform.position);
+        //Vector3 targetClosestPoint = targetCollider.ClosestPoint(myClosestPoint);
+        //Vector3 offset = targetClosestPoint - myClosestPoint;
+        //if (offset.magnitude < snapDistance)
+        //{
+        //    transform.position += offset;
+        //}
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag=="Box")
         {
-            transform.position += offset;
+            targetCollider=collision.gameObject.GetComponent<Collider>();
+            Vector3 myClosestPoint = myCollider.ClosestPoint(targetCollider.transform.position);
+            Vector3 targetClosestPoint = targetCollider.ClosestPoint(myClosestPoint);
+            Vector3 offset = targetClosestPoint - myClosestPoint;
+            if (offset.magnitude < snapDistance)
+            {
+                transform.position += offset;
+            }
         }
     }
 }
