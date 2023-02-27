@@ -6,16 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SNAP.unity
-    guid: 8523b7172b82cf749b9a96099d926c57
+    path: Assets/Scenes/Test.unity
+    guid: f5cc214de579ee34c88aec7b7b98646f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 79d77446b92fa9f468e73a0e87830536,
       type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,
       type: 2}
+    WebXR.Settings: {fileID: 11400000, guid: a510086ad0a486e46aaafe9b9fc228f9, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 7c0d65f8139523c47a3ac0b1587ccdf6,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e01aad694f746424db718f9622c7cd6d,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7dbf6a5ed1c86a14e8f18c036dd1e1c3,
       type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 2ae0a4a226e8d9e4aba56d1e2eb3977b,
       type: 2}
