@@ -10,10 +10,10 @@ public class PanelManager : MonoBehaviour
      
         foreach (ButtonInfo xyz in buttons.subjects)
         {
-            Instantiate(xyz.btn,transform);
-            xyz.btn.GetComponentInChildren<RawImage>().texture = xyz.image;
-            xyz.btn.GetComponentInChildren<RawImage>().color = Color.white;
-            xyz.btn.GetComponentInChildren<Text>().text = xyz.name;
+            Button jar = Instantiate(xyz.btn,transform);
+            jar.GetComponentInChildren<RawImage>().texture = xyz.image;
+            jar.GetComponentInChildren<RawImage>().color = Color.white;
+            jar.GetComponentInChildren<Text>().text = xyz.name;
         }
     }
   

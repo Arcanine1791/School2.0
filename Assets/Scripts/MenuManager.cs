@@ -17,12 +17,16 @@ public class MenuManager : MonoBehaviour
         Debug.Log(name);
         switch (name)
         {
-            case "Play":
-                
+            case "Physics":
+                Debug.Log("Physics");
                 break;
             
-            case "Setting":
-                
+            case "Literature":
+                Debug.Log("Literature");
+                break;
+            
+            case "Chemistry":
+                Debug.Log("Chemistry");
                 break;
             
             case "Quit":
